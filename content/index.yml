@@ -1,0 +1,116 @@
+title: PastePost | Your Digital Clipboard
+description: Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+hero:
+  title: Your thoughts, shared instantly
+  description: Explore the simplest way to broadcast your ideas, notes, and text snippets to the world. Perfect for collaboration, notes, and more—get your message out there, effortlessly.
+  headline:
+    label: Made with ❤️ by Ilya Shmelov
+    to: https://github.com/ilyabumblebee
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: Get started
+      to: '/signup'
+      size: xl
+      color: black
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+    - label: Dive back in
+      icon: i-heroicons-arrow-uturn-right
+      size: xl
+      color: gray
+      to: '/login'
+logos:
+  title: Trusted by the world's best
+  icons:
+    - i-simple-icons-amazonaws
+    - i-simple-icons-akamai
+    - i-simple-icons-vercel
+    - i-simple-icons-cloudflare
+features:
+  title: Why choose our service?
+  description: In an ocean of digital platforms allowing you to share your thoughts and work, our service stands out as the beacon of simplicity, security, and speed.
+  items:
+    - title: Easy to use
+      description: Say goodbye to cumbersome interfaces. Our platform is designed with the user in mind, ensuring that sharing your text, whether it's a groundbreaking idea, a project update, or just a quick note, is as intuitive as breathing.
+      icon: i-heroicons-cog
+    - title: Versatile
+      description: From code snippets to creative writing, our platform is built to accommodate a wide array of text formats. Share freely, without constraints.
+      icon: i-heroicons-check
+    - title: Secure
+      description: We understand the importance of keeping your shared content secure. Choose who sees your text with our customizable privacy settings, giving you peace of mind every time you share.
+      icon: i-heroicons-lock-closed
+    - title: Fast
+      description: In the fast-paced digital world, collaboration can't wait. Our service enables instant sharing and feedback, bridging the gap between thought and action faster than ever before.
+      icon: i-heroicons-rocket-launch
+    - title: Affordable
+      description: Dive into a seamless sharing experience without the worry of hidden fees. Our platform is accessible to everyone, aiming to foster a community where knowledge and ideas flow freely.
+      icon: i-heroicons-currency-dollar
+    - title: Scalable
+      description: Whether you're sharing a quick note today or distributing thousands of text snippets tomorrow, our platform scales with your needs. Effortlessly handle growth in content volume without compromising on performance or speed.
+      icon: i-heroicons-chart-bar
+pricing:
+  headline: Pricing
+  title: A plan for every need
+  description: Our plans are designed to meet the requirements of both beginners and professionals. Get the right plan that suits you.
+  plans:
+    - title: Zero Cost
+      description: A basic plan for beginners
+      price: $0.00
+      align: top
+      button:
+        label: Get Started
+        color: gray
+      features:
+        - 1 GB Storage
+        - Permanent links
+        - Public pastes
+        - 1,000,000 visits / month
+        - 1,000 API requests / month
+        - Email Support
+    - title: Standard
+      description: A standard plan for small teams
+      price: $2.99
+      highlight: true
+      scale: true
+      align: top
+      button:
+        label: Get Started
+      features:
+        - 10 GB Storage
+        - Permanent links
+        - Private / Public pastes
+        - No visit limit
+        - 10,000,000 API requests / month
+        - Express Email Support
+    - title: Premium
+      description: A premium plan for bad-boys 😎
+      price: $29.99
+      align: top
+      button:
+        label: Get Started
+        color: gray
+      features:
+        - Unlimited Storage
+        - Multiple links
+        - Private / Public pastes
+        - No visit limit
+        - Detailed Stats
+        - Unlimited API requests
+        - Prioritized Email Support
+faq:
+  title: Frequently asked questions
+  description: Navigate our FAQ to illuminate your journey with insights and solutions tailored for effortless understanding.
+  items:
+    - label: Is this a secure service?
+      content: Yes, we prioritize the security of our service. Our team employs advanced encryption and security practices to ensure your data is protected at all times.
+      defaultOpen: true
+    - label: How can I cancel my subscription?
+      content: You can cancel your subscription at any time through your account settings. If you need assistance, our support team is here to help guide you through the process.
+    - label: How does the Zero Cost plan work?
+      content: Our Zero Cost plan is available to everyone without any time limit. It's designed for beginners or those with basic needs, offering a range of features free of charge. There's no need to subscribe or provide payment details, and you can use this plan for as long as you like. If your needs grow, you can easily switch to one of our paid plans to access additional features and resources.
+    - label: Can I switch plans later?
+      content: Absolutely! You can upgrade or downgrade your plan at any time based on your needs. Changes to your plan will be reflected in your account immediately.
+    - label: Do you offer refunds?
+      content: We aim for satisfaction with our services. If you're not satisfied with your purchase, please reach out to our support team within the first 30 days to discuss a possible refund.
+    - label: Do you offer support?
+      content: Yes, we offer support for all our plans. The level of support varies by plan, from Basic Email Support for our Zero Cost plan holders to Prioritized Email Support for our Premium plan subscribers. We're here to assist you with any questions or issues you might have.
