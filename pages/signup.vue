@@ -8,10 +8,10 @@ useSeoMeta({
 })
 
 const fields = [{
-  name: 'name',
+  name: 'username',
   type: 'text',
-  label: 'Name',
-  placeholder: 'Enter your name'
+  label: 'Username',
+  placeholder: 'Enter your username (optionally)'
 }, {
   name: 'email',
   type: 'text',
