@@ -6,7 +6,7 @@ const links = computed(() => [{
   label: 'Features',
   to: '#features',
   icon: 'i-heroicons-cube-transparent',
-  active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
+  active: activeHeadings.value.includes('features')
 }, {
   label: 'Pricing',
   to: '#pricing',
@@ -32,7 +32,10 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
   <UHeader :links="links" style="background-color: hsla(0, 0%, 80%, 0.1);">
 
     <template #logo>
-      pastepost <UBadge label="beta" variant="subtle" class="mb-0.5 animate-pulse" />
+      <div class="flex items-center">
+        <img src="/favicon.svg" alt="logo" class="h-6 w-6" /> <!-- Adjust the path as necessary -->
+        <span class="ml-2">PASTE POST</span> <UBadge label="beta" variant="subtle" class="mb-0.5 ml-2 animate-pulse" />
+      </div>
     </template>
 
     <template #right>
@@ -44,7 +47,6 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
       <UDivider class="my-6" />
 
-      <!-- <UButton label="Sign in" color="white" block class="mb-3" /> -->
       <UButton label="Get started" block />
     </template>
   </UHeader>

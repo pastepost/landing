@@ -4,7 +4,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/favicon.svg' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -12,15 +12,12 @@ useHead({
 })
 
 useSeoMeta({
-  ogSiteName: 'pastepost',
-  twitterCard: 'summary_large_image'
+  ogSiteName: 'PastePost'
 })
 </script>
 
 <template>
-  <UMain>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </UMain>  
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>

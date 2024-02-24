@@ -59,6 +59,7 @@ pricing:
       align: top
       button:
         label: Get Started
+        to: /signup
         color: gray
       features:
         - 1 GB Storage
@@ -75,6 +76,7 @@ pricing:
       align: top
       button:
         label: Get Started
+        to: /signup
       features:
         - 10 GB Storage
         - Permanent links
@@ -88,6 +90,7 @@ pricing:
       align: top
       button:
         label: Get Started
+        to: /signup
         color: gray
       features:
         - Unlimited Storage
